@@ -1,7 +1,7 @@
 
 jQuery(function(){
 
-	alert("Script funcionando");
+	//alert("Script funcionando");
 
 });
 
