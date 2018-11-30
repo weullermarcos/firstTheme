@@ -1,13 +1,15 @@
 
-<?php
+<?php get_header();?>
 
-	get_header();
+	<section>
+		
+		<div class="container">
+			............
+		</div>
 
+		<?php get_sidebar();?>
 
+	</section>
 
-	get_footer();
-
-?>
-
-
+<?php get_footer();?>
 

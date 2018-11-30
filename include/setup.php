@@ -20,6 +20,21 @@
 
 	}
 
+	//Função para registrar a sidebar - Habilita a aparição de Widgets na área administrativa
+	function wm_widgets(){
+
+		register_sidebar(array(
+			'name' => __('Meu Primeiro Sidebar', 'firstTheme'),
+			'id' => 'wm_sidebar',
+			'description' => __('Sidebar para o tema', 'firstTheme'),
+			'before_title' => '<h4 class="widget_title">',
+			'after_title' => '</h4>',
+			'before_widget' => '<div id="%1$s" class="widgets %2$s">',
+			'after_widget' => '</div>'
+		));
+
+
+	}
 
 ?>
 

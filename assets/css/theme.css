@@ -1,9 +1,29 @@
 
 body{
-	background-color:#00FF00;
+	background-color:#DDDDDD;
 }
 
 .main_menu{
 
-	background-color: #FF0000;
+	background-color: #FF0101;
 }
+
+.container{
+
+	width: 70%;
+	float: left;
+}
+
+
+sidebar{
+	width: 30%;
+	float: left;
+}
+
+
+.widget_title{
+
+	color: #0000FF;
+
+}
+

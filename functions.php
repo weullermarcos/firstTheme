@@ -10,8 +10,9 @@
 	//Usando um Hooks para carregar os estilos do tema
 	add_action('wp_enqueue_scripts','wm_theme_styles');
 	//Usando Hook para incluir Menu
-	add_action('after_setup_theme', 'wm_after_setup')	
-
+	add_action('after_setup_theme', 'wm_after_setup');
+	//Usando Hook para incluir Widgets
+	add_action('widgets_init', 'wm_widgets');
 
 ?>
 
